@@ -29,20 +29,10 @@ Your task is to write a series of functions that execute the following tasks:
     * indexedChars('bye') -> '0b1y2e'
   * Hints: 
     * We can add something BEFORE the current character as well!
-* `numberedChars` - adds the number of each character before that character in the given string
-  * Examples:
-    * numberedChars('hello') -> '(1)h(2)e(3)l(4)l(5)o'
-    * numberedChars('bye') -> '(1)b(2)y(3)e'
-  * Hints: 
-    * there's a simple relationship between the index and the number... indices are 0-based counting and numbers are 1-based... you'll figure it out!
 * `exclaim` - returns the given sentence with every question mark or period changed to an exclamation point
   * Examples:
     * exclaim('What are you doing? Are you a fool?') -> 'What are you doing! Are you a fool!'
     * exclaim('This is fine.') -> 'This is fine!'
-* `repeatIt` - returns the given string repeated `n` times, where `n` is the second parameter
-  * Examples:
-    * repeatIt('beetlejuice', 3) -> 'beetlejuicebeetlejuicebeetlejuice'
-    * repeatIt('oh hi!', 8) -> 'oh hi!oh hi!oh hi!oh hi!oh hi!oh hi!oh hi!oh hi!'
 * `truncate` - shortens a long string to 15 characters plus an ellipsis (...)
   * Examples:
     * truncate('The fault, dear Brutus, is not in our stars, but in ourselves.') -> 'The fault, dear...'
