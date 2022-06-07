@@ -7,7 +7,7 @@ Start off by forking and cloning this assignment, then create a file `main.js` i
 
 ### Guidelines
 
-* Other than `.toUpperCase` and `.toLowerCase`, don't use any string methods. Sure, `.slice` would be nice here, or `.repeat`. But you'll learn just a ton more if you use actual loops!
+* Other than `.toUpperCase` and `.toLowerCase`, don't use any string methods. Sure, `.slice` would be nice here, but you'll learn just a ton more if you use actual loops!
 
 ### Task
 
